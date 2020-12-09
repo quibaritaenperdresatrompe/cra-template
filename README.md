@@ -23,7 +23,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `coverage`
 
-Opens, in browser, the LCOV Code Coverage report. See http://localhost:8080/.
+Opens, in browser, the LCOV Code Coverage report.<br />
+Open [http://localhost:4004](http://localhost:4004) to view it in the browser.
 
 ### `build`
 
@@ -58,3 +59,16 @@ e.g. in Visual Studio code with [Prettier - Code formatter](https://marketplace.
 ### `analyze`
 
 Creates a tree-map visualization of bundles size with [`source-map-explorer`](https://www.npmjs.com/package/source-map-explorer).
+
+### `storybook`
+
+Runs the Storybook.<br />
+Open [http://localhost:6006](http://localhost:6006) to view it in the browser.<br/>
+
+More informations on https://storybook.js.org/docs/react/api/cli-options#start-storybook.
+
+### `build-storybook`
+
+Builds the Storybook app for production to the `storybook-static` folder.<br/>
+
+More informations on https://storybook.js.org/docs/react/api/cli-options#build-storybook.
